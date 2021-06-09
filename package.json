@@ -3,8 +3,25 @@
   "version": "1.0.0",
   "description": "generates ids",
   "main": "index.js",
-  "author": "Rizowski",
+  "author": {
+    "email": "c.rouska@gmail.com",
+    "name": "Colten Rouska"
+  },
+  "engines": {
+    "node": ">=8"
+  },
   "license": "MIT",
+  "repository": {
+    "url": "github.com/rizowski/alfred-ids"
+  },
+  "keywords": [
+    "alfred",
+    "workflow",
+    "ids",
+    "id-generator",
+    "generator",
+    "alfy"
+  ],
   "scripts": {
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
