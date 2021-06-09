@@ -1,0 +1,19 @@
+{
+  "name": "alfred-ids",
+  "version": "1.0.0",
+  "description": "generates ids",
+  "main": "index.js",
+  "author": "Rizowski",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "dependencies": {
+    "alfy": "^0.11.0",
+    "cuid": "^2.1.8",
+    "nanoid": "^3.1.23",
+    "shortid": "^2.2.16",
+    "uuid": "^8.3.2"
+  }
+}
