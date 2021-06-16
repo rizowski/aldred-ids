@@ -8,7 +8,7 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>C100AAB7-8A43-4F4B-895D-CB1E2F0C09DB</key>
+		<key>02309379-CE26-4DF5-8032-AFBD80A24889</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -35,7 +35,7 @@
 	<key>createdby</key>
 	<string>Rizowski</string>
 	<key>description</key>
-	<string>Generates various ids</string>
+	<string>Generates IDs</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -75,7 +75,7 @@
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
@@ -89,7 +89,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>identifying...</string>
 				<key>script</key>
 				<string>./node_modules/.bin/run-node index.js "$1"</string>
 				<key>scriptargtype</key>
@@ -97,18 +97,18 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>Type to filter</string>
 				<key>title</key>
-				<string>ids</string>
+				<string>ids...</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>C100AAB7-8A43-4F4B-895D-CB1E2F0C09DB</string>
+			<string>02309379-CE26-4DF5-8032-AFBD80A24889</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -136,28 +136,30 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>02309379-CE26-4DF5-8032-AFBD80A24889</key>
+		<dict>
+			<key>xpos</key>
+			<integer>130</integer>
+			<key>ypos</key>
+			<integer>155</integer>
+		</dict>
 		<key>2204CE1C-734A-49E1-A80C-9F8FD882D8AC</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>610</integer>
 			<key>ypos</key>
-			<integer>130</integer>
+			<integer>235</integer>
 		</dict>
 		<key>95563747-5C37-430B-AFD5-9B7B5BB78AA5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>620</integer>
 			<key>ypos</key>
-			<integer>10</integer>
-		</dict>
-		<key>C100AAB7-8A43-4F4B-895D-CB1E2F0C09DB</key>
-		<dict>
-			<key>xpos</key>
-			<integer>100</integer>
-			<key>ypos</key>
-			<integer>130</integer>
+			<integer>105</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>1.1.0</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
